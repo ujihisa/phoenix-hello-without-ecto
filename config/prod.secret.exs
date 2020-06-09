@@ -5,11 +5,7 @@
 use Mix.Config
 
 secret_key_base =
-  System.get_env("SECRET_KEY_BASE") ||
-    raise """
-    environment variable SECRET_KEY_BASE is missing.
-    You can generate one by calling: mix phx.gen.secret
-    """
+  "2CPRWat8+ck1BgYH9wvbhPY8M5q1SHb+6fqEK6sGyoQcTJBVvYvdtlJSRk3eTODj"
 
 config :hello, HelloWeb.Endpoint,
   http: [
